@@ -1,0 +1,35 @@
+{
+	"name": "are-vbb-hafas-stations-the-same",
+	"description": "Check if two stations from the VBB API should be one.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"vbb",
+		"bvg",
+		"hafas",
+		"berlin",
+		"public transport",
+		"transit"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/are-vbb-hafas-stations-the-same",
+	"repository": "derhuerst/are-vbb-hafas-stations-the-same",
+	"bugs": "https://github.com/derhuerst/are-vbb-hafas-stations-the-same/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tap-min": "^1.2.2",
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
