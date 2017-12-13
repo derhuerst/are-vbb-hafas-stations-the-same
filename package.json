@@ -23,6 +23,8 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"luxon": "^0.2.7",
+		"vbb-hafas": "^3.1.0"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.2",
