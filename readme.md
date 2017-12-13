@@ -1,6 +1,6 @@
 # are-vbb-hafas-stations-the-same
 
-**Check if two stations from the VBB API should be one.**
+**Check if two stations from the VBB API should be one.** Work in progress, because the heuristic doesn't work yet.
 
 [![npm version](https://img.shields.io/npm/v/are-vbb-hafas-stations-the-same.svg)](https://www.npmjs.com/package/are-vbb-hafas-stations-the-same)
 [![build status](https://api.travis-ci.org/derhuerst/are-vbb-hafas-stations-the-same.svg?branch=master)](https://travis-ci.org/derhuerst/are-vbb-hafas-stations-the-same)
