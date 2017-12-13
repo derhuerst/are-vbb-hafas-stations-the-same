@@ -28,6 +28,8 @@ test('should identify certain stations as separate', async (t) => {
 	t.notOk(await s('900000050258', '900000050259'), 'Am Fischtal & Im Gestell')
 	t.notOk(await s('900000053101', '900000053171'), 'Glienicker Lake & Schloss Glienicke')
 	t.notOk(await s('900000320860', '900000320870'), 'Strausberg: Treuenhof & Steuerhaus')
+	t.notOk(await s('900000085150', '900000085154'), 'Brusebergstr. & Lübener Weg')
+	t.notOk(await s('900000007155', '900000007111'), 'Gleimstr. & Lortzingstr.')
 
 	t.end()
 })
