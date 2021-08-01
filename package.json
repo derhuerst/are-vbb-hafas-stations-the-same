@@ -24,7 +24,7 @@
 	},
 	"dependencies": {
 		"debug": "^3.1.0",
-		"hafas-collect-departures-at": "^0.2.2",
+		"hafas-collect-departures-at": "^0.3.1",
 		"luxon": "^0.2.7",
 		"vbb-hafas": "^3.1.0"
 	},
